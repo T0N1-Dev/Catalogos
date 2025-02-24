@@ -6,13 +6,13 @@ import Navbar from './Navbar';
 import useScrollToTop from '../hooks/useScrollToTop';
 
 const cards = [
-  { id: 0, title: 'Novelas en Transmisión', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740429589/telenovelas_fhjojq.webp', url: 'https://drive.google.com/uc?export=download&id=1UE3ok3jCyNNinZGTa1B5KsFelQHz8fRZ'},
-  { id: 1, title: 'Novelas Coreanas', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740429408/Coreanas_fkavo2.jpg', url: 'https://drive.google.com/uc?export=download&id=1bzk8r-El1x2StW7zjn7x7d64bf6FcX-S' },
-  { id: 2, title: 'Novelas Finzalizadas Vol-1', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1-dYeuJyRyaRvCcmqerAuRnNbWVw4Cx6w' },
-  { id: 3, title: 'Novelas Finzalizadas Vol-2', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1Btbtq3cZKtcy8rUGVOkqdA86rOkdshAj' },
-  { id: 4, title: 'Novelas Finzalizadas Vol-3', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1qRs8TFV8xCN4Z4kcQMvgQ2KjCpMNRfcY' },
-  { id: 5, title: 'Novelas Finzalizadas Vol-4', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1do6tOtjbPwIXLiEvwjhDrwG1VgPwnSSP' },
-  { id: 6, title: 'Novelas Finzalizadas Vol-5', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1FrlpG2G3K4kjiOph6YYcDxAzATSOSw9t' },
+  { id: 0, title: 'Novelas en Transmisión', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740429589/telenovelas_fhjojq.webp', url: 'https://drive.google.com/uc?export=download&id=1UE3ok3jCyNNinZGTa1B5KsFelQHz8fRZ'},
+  { id: 1, title: 'Novelas Coreanas', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740429408/Coreanas_fkavo2.jpg', url: 'https://drive.google.com/uc?export=download&id=1bzk8r-El1x2StW7zjn7x7d64bf6FcX-S' },
+  { id: 2, title: 'Novelas Finzalizadas Vol-1', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1-dYeuJyRyaRvCcmqerAuRnNbWVw4Cx6w' },
+  { id: 3, title: 'Novelas Finzalizadas Vol-2', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1Btbtq3cZKtcy8rUGVOkqdA86rOkdshAj' },
+  { id: 4, title: 'Novelas Finzalizadas Vol-3', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1qRs8TFV8xCN4Z4kcQMvgQ2KjCpMNRfcY' },
+  { id: 5, title: 'Novelas Finzalizadas Vol-4', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1do6tOtjbPwIXLiEvwjhDrwG1VgPwnSSP' },
+  { id: 6, title: 'Novelas Finzalizadas Vol-5', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740412660/25-Mejores-Novelas-Turcas-Principal-1_v1tn7e.jpg', url: 'https://drive.google.com/uc?export=download&id=1FrlpG2G3K4kjiOph6YYcDxAzATSOSw9t' },
 ];
 
 function Novelas() {

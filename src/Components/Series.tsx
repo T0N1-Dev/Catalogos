@@ -6,11 +6,11 @@ import Navbar from './Navbar';
 import useScrollToTop from '../hooks/useScrollToTop';
 
 const cards = [
-  { id: 0, title: 'Series Finalizadas Vol-1', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740423400/Capture1_n4ugve.png', url: 'https://drive.google.com/uc?export=download&id=1CWcZCnICq5vnAp20VnqdchivI_2S-OkC' },
-  { id: 1, title: 'Series Finalizadas Vol-2', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740423110/Capture2_e8tpcl.png', url: 'https://drive.google.com/uc?export=download&id=12h6wjyZFGFzCbrWmHiotIZwbOu1iYKZo' },
-  { id: 2, title: 'Series Finalizadas Vol-3', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740423432/Capture3_k2hi8k.png', url: 'https://drive.google.com/uc?export=download&id=1CSkx9NVxvJDHEnykD5eLzi1adw8gXCNN' },
-  { id: 3, title: 'Series Finalizadas Vol-4', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740423150/Capture4_dt6ulb.png', url: 'https://drive.google.com/uc?export=download&id=1krtrYpkqt5hQ13FsRFSYVPvv47zFcckS' },
-  { id: 4, title: 'Series Finalizadas Vol-5', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740423087/Capture5_x0dcup.png', url: 'https://drive.google.com/uc?export=download&id=1m5y7LvzGLx99VdXy3NDYy-qJW-3RZM_8' }
+  { id: 0, title: 'Series Finalizadas Vol-1', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800v1740423400/Capture1_n4ugve.png', url: 'https://drive.google.com/uc?export=download&id=1CWcZCnICq5vnAp20VnqdchivI_2S-OkC' },
+  { id: 1, title: 'Series Finalizadas Vol-2', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800v1740423110/Capture2_e8tpcl.png', url: 'https://drive.google.com/uc?export=download&id=12h6wjyZFGFzCbrWmHiotIZwbOu1iYKZo' },
+  { id: 2, title: 'Series Finalizadas Vol-3', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800v1740423432/Capture3_k2hi8k.png', url: 'https://drive.google.com/uc?export=download&id=1CSkx9NVxvJDHEnykD5eLzi1adw8gXCNN' },
+  { id: 3, title: 'Series Finalizadas Vol-4', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800v1740423150/Capture4_dt6ulb.png', url: 'https://drive.google.com/uc?export=download&id=1krtrYpkqt5hQ13FsRFSYVPvv47zFcckS' },
+  { id: 4, title: 'Series Finalizadas Vol-5', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800v1740423087/Capture5_x0dcup.png', url: 'https://drive.google.com/uc?export=download&id=1m5y7LvzGLx99VdXy3NDYy-qJW-3RZM_8' }
 ];
 
 function Series() {

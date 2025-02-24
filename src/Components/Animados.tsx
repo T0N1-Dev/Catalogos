@@ -6,9 +6,9 @@ import Navbar from './Navbar';
 import useScrollToTop from '../hooks/useScrollToTop';
 
 const cards = [
-  { id: 0, title: 'Peliculas Animadas', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740412661/warner-bros-animation-collage-v0-35a0wlfll4qb1_tuohdh.webp', url: 'https://drive.google.com/uc?export=download&id=1PeOqpE4hVv74qDdQtodLyBDWMjCQwPve'},
-  { id: 1, title: 'Series Animadas Vol-1', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740422192/66478901_375945910011936_4574640091548352512_n_sfw4xa.jpg', url: 'https://drive.google.com/uc?export=download&id=1MYcA5JVQhQl7V12GKS0KRW3GAoXT1SQi' },
-  { id: 2, title: 'Series Animadas Vol-2', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/v1740422211/473776_lhiuf8.webp', url: 'https://drive.google.com/uc?export=download&id=19e44hIsLFoB9SOcFvJoKodZqBvNW84CG' },
+  { id: 0, title: 'Peliculas Animadas', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740412661/warner-bros-animation-collage-v0-35a0wlfll4qb1_tuohdh.webp', url: 'https://drive.google.com/uc?export=download&id=1PeOqpE4hVv74qDdQtodLyBDWMjCQwPve'},
+  { id: 1, title: 'Series Animadas Vol-1', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740422192/66478901_375945910011936_4574640091548352512_n_sfw4xa.jpg', url: 'https://drive.google.com/uc?export=download&id=1MYcA5JVQhQl7V12GKS0KRW3GAoXT1SQi' },
+  { id: 2, title: 'Series Animadas Vol-2', image: 'https://res.cloudinary.com/dmfs1od9n/image/upload/f_auto,q_auto/c_limit,w_800/v1740422211/473776_lhiuf8.webp', url: 'https://drive.google.com/uc?export=download&id=19e44hIsLFoB9SOcFvJoKodZqBvNW84CG' },
 ];
 
 function Animados() {

@@ -30,6 +30,9 @@ const ImageWithSkeleton = ({ src, alt }: { src: string; alt: string }) => {
       <img
         src={src}
         alt={alt}
+        loading="lazy"
+        srcSet={`${src}?w=300 300w, ${src}?w=600 600w, ${src}?w=1200 1200w`}
+        sizes="(max-width: 600px) 300px, (max-width: 1200px) 600px, 1200px"
         className={`rounded-lg transition-opacity duration-500 ${loading ? "opacity-0 w-0 h-0" : "opacity-100 w-full h-48 object-cover"}`}
         onLoad={() => setLoading(false)}
       />
